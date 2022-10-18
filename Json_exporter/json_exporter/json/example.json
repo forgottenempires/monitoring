@@ -1,0 +1,71 @@
+[
+    {
+        "metric_name": "phoenix_test_metric",
+        "help": "help information for metric 2 response time",
+        "type": "gauge",
+        "labels": ["test_name", "category"],
+        "values": [
+            {
+                "value": 1,
+                "labels": ["bvt_standardgame", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_empirewars", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_battleroyale", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_deathmatch", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_capturetherelic", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_Kingofthehill", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_civ_selection", "SKIRMISH_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_campaigngame", "CAMPAIGN_TESTS"]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_mods ", "MOD/HOTKEYS_TESTS "]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_hotkeys", "MOD/HOTKEYS_TESTS "]
+                
+            },
+            {
+                "value": 0,
+                "labels": ["bvt_saveload_campaign", "SAVE LOAD_TESTS "]
+                
+            },
+            {
+                "value": 1,
+                "labels": ["bvt_saveload", "SAVE LOAD_TESTS "]
+                
+            }
+        ]
+    }
+]
+
